@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Work from "../Home/work.jsx";
 import Design2 from "../Home/design2.jsx";
 import Design3 from "../Home/design3.jsx";
+import Vid from "../Home/vid.jsx";
 import designicon from "../../assets/icons/designicon.svg";
 
 function Design() {
@@ -30,6 +31,7 @@ function Design() {
 
       {/* Additional Sections */}
       <Design2 />
+      <Vid />
       <Work />
       <Design3 />
     </section>
