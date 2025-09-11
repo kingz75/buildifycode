@@ -11,26 +11,26 @@ import Design from "../Home/design.jsx";
 function Home() {
   return (
     <div>
-      <section className="relative min-h-screen bg-no-repeat bg-cover lg:bg-center pt-[100px] pb-8 px-[16px] lg:px-0 lg:bg-[url('/src/assets/back/homebg.png')] bg-[url('/src/assets/back/homebgm.png')]">
-        <div className="flex flex-col items-center text-center min-h-[calc(100vh-100px)] justify-between">
+      <section className="relative h-screen bg-no-repeat bg-cover lg:bg-center px-[16px] lg:px-0 lg:bg-[url('/src/assets/back/homebg.png')] bg-[url('/src/assets/back/homebgm.png')] overflow-hidden">
+        <div className="flex flex-col items-center text-center h-full pt-[100px]">
           {/* Logo */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="w-[264px] lg:w-auto flex-shrink-0"
+            className="w-[264px] lg:w-auto flex-shrink-0 mb-4 lg:mb-8"
           >
             <img src={homeicon} alt="Home Icon" />
           </motion.div>
 
           {/* Main Content Container */}
-          <div className="flex-1 flex flex-col justify-center items-center max-w-6xl mx-auto py-4">
+          <div className="flex-1 flex flex-col justify-center items-center max-w-6xl mx-auto px-4">
             {/* Headline */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-white font-extrabold text-[32px] lg:text-[64px] px-4 lg:px-[200px] mb-6 lg:mb-8"
+              className="text-white font-extrabold text-[32px] lg:text-[64px] px-4 lg:px-[200px] mb-4 lg:mb-6"
             >
               Build a website that speaks, engages, and converts!
             </motion.h1>
@@ -40,7 +40,7 @@ function Home() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="flex justify-center w-full"
+              className="flex justify-center w-full mb-4 lg:mb-6"
             >
               <div className="flex flex-col-reverse lg:flex-row items-center gap-[16px] w-full max-w-[500px]">
                 {/* Our Work Button */}
@@ -70,12 +70,12 @@ function Home() {
             </motion.div>
           </div>
 
-          {/* Illustrations */}
+          {/* Illustrations - Natural flow, sticks to bottom */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="flex-shrink-0"
+            className="flex-shrink-0 mt-auto"
           >
             <img
               src={group}
