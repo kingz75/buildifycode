@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import Work from "../Home/work.jsx";
 import Design2 from "../Home/design2.jsx";
 import Design3 from "../Home/design3.jsx";
-import Vid from "../Home/vid.jsx";
+//import Vid from "../Home/vid.jsx";
 import designicon from "../../assets/icons/designicon.svg";
 
 function Design() {
   return (
     <section className="bg-cover bg-center lg:py-[101px] py-[60px] px-[16px] lg:px-[80px] lg:bg-[url('/src/assets/back/bgimage.png')] bg-[url('/src/assets/back/bgimagem.png')]">
-      <div className="text-center max-w-5xl mx-auto">
+      <div className="text-center max-w-5xl mx-auto ">
         {/* Icon */}
         <div className="flex justify-center">
           <img src={designicon} alt="Design Icon" />
@@ -31,7 +31,7 @@ function Design() {
 
       {/* Additional Sections */}
       <Design2 />
-      <Vid />
+      {/* <Vid />*/}
       <Work />
       <Design3 />
     </section>
