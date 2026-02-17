@@ -1,5 +1,5 @@
 import { motion } from 'motion/react'
-import { Github, Linkedin, Twitter, ArrowUp } from 'lucide-react'
+import { Github, Linkedin, ArrowUp } from 'lucide-react'
 import { Link, useLocation } from '@tanstack/react-router'
 import main from "/mainlogo.svg";
 import { FaXTwitter } from "react-icons/fa6";

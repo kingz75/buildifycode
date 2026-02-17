@@ -9,8 +9,6 @@ import {
   Cloud,
   Code2,
   Database,
-  Shield,
-  Zap,
   CheckCircle,
   ArrowRight,
 } from 'lucide-react'

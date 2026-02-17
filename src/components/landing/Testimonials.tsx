@@ -7,26 +7,26 @@ const testimonials = [
       'BuildifyCode played a key role in bringing our digital vision at Green World AgroTrade to life. Their team demonstrated strong technical expertise, clear communication, and a deep understanding of our business needs. The platform they delivered is modern, reliable, and perfectly aligned with our growth objectives. We’ve seen real value from the solution, and we highly recommend BuildifyCode as a trusted technology partner.',
     author: 'Team',
     role: 'Green World AgroTrade ',
-    // avatar:
-    //   'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
+    avatar:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
     rating: 5,
   },
   {
     quote:
-      "BuildifyCode delivered an exceptional digital solution for Cozym LMT, combining strong technical expertise with a clear understanding of our business operations. The platform is efficient, scalable, and tailored to our workflow needs. Their attention to detail, responsiveness, and commitment to quality made the entire process seamless. We’re extremely satisfied with the outcome and would confidently recommend BuildifyCode for enterprise-level projects.",
+      'BuildifyCode delivered an exceptional digital solution for Cozym LMT, combining strong technical expertise with a clear understanding of our business operations. The platform is efficient, scalable, and tailored to our workflow needs. Their attention to detail, responsiveness, and commitment to quality made the entire process seamless. We’re extremely satisfied with the outcome and would confidently recommend BuildifyCode for enterprise-level projects.',
     author: 'Team',
     role: 'Cozym LMT',
-    // avatar:
-    //   'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+    avatar:
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
     rating: 5,
   },
   {
     quote:
-      "BuildifyCode provided a robust and well-structured digital solution for Tiamin. Their team took the time to understand our operational needs and delivered a platform that improved efficiency, usability, and overall digital presence. The project was executed with precision, professionalism, and clear communication throughout. We highly value the partnership and would recommend BuildifyCode to any organization seeking reliable technology solutions.",
+      'BuildifyCode provided a robust and well-structured digital solution for Tiamin. Their team took the time to understand our operational needs and delivered a platform that improved efficiency, usability, and overall digital presence. The project was executed with precision, professionalism, and clear communication throughout. We highly value the partnership and would recommend BuildifyCode to any organization seeking reliable technology solutions.',
     author: 'Team',
     role: 'Tiamin',
-    // avatar:
-    //   'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
+    avatar:
+      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
     rating: 5,
   },
 ]

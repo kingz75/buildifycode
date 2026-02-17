@@ -4,13 +4,12 @@ import {
   Send,
   Mail,
   MapPin,
-  Phone,
   CheckCircle,
   Loader2,
   AlertCircle,
 } from 'lucide-react'
 import emailjs from '@emailjs/browser'
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from 'react-icons/fa'
 
 export function Contact() {
   const [formState, setFormState] = useState({
@@ -150,9 +149,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-gray-500 text-sm">Location</div>
-                  <div className="text-white font-medium">
-                    Abuja, NG
-                  </div>
+                  <div className="text-white font-medium">Abuja, NG</div>
                 </div>
               </div>
             </div>
